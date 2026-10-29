@@ -1,0 +1,440 @@
+<title>Alabama Pharma Jobs</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@400;500;600;700;800;900&family=Source+Serif+4:opsz,wght@8..60,600;8..60,700;8..60,800&display=swap">
+/*CSS*/
+<style>
+.al-pay { display: flex; gap: 6px; align-items: center; }
+.al-pay select { flex: 1 1 0; min-width: 0; }
+.al-pay i { font-style: normal; color: #484D53; font-weight: 700; }
+.cc-field.pay { grid-column: span 2; }
+.al-hint { margin: 0; padding: 0 16px 10px; font-size: 13.75px; color: #484D53; line-height: 1.3636; }
+.al-hint:empty { display: none; }
+.cc-job .c1 .cc-tag { min-width: 84px; }
+.cc-city button[hidden] { display: none; }
+.al-mark { display: inline-flex; align-items: center; gap: 6px; }
+@media (max-width: 640px) { .cc-field.pay, .cc-field.wide { grid-column: 1 / -1; } }
+</style>
+
+<div class="cc" id="cc">
+  <canvas class="cc-speckle" id="cc-speckle" aria-hidden="true"></canvas>
+  <div class="cc-page" id="cc-page">
+
+    <header class="cc-head cc-glass" id="top">
+      <div class="cc-bars" aria-hidden="true">
+        <span style="background:#11487E"></span><span style="background:#165832"></span><span style="background:#822822"></span>
+        <span style="background:#4B317A"></span><span style="background:#703C04"></span><span style="background:#0A5556"></span>
+        <span style="background:#70244F"></span><span style="background:#445010"></span><span style="background:#2A3A4B"></span>
+      </div>
+      <p class="cc-kicker">LinkedIn · Alabama · Updated /*UPDATED*/</p>
+      <h1>Alabama Pharma &amp; Med Sales Jobs</h1>
+      <p class="cc-take" id="takeaway">Loading jobs…</p>
+    </header>
+
+    <div class="cc-kpis" id="all-kpis">
+      <button type="button" class="cc-kpi t cc-kpi-btn" data-k="open">
+        <span class="cc-kpi-label" id="ak-open-label">Open jobs</span>
+        <span class="cc-kpi-val" id="ak-open">–</span>
+        <span class="cc-kpi-sub">In the cities you picked · tap to reset filters</span>
+      </button>
+      <button type="button" class="cc-kpi pl cc-kpi-btn" data-k="paid">
+        <span class="cc-kpi-label">Post their pay</span>
+        <span class="cc-kpi-val" id="ak-paid">–</span>
+        <span class="cc-kpi-sub">Base salary listed · tap to filter</span>
+      </button>
+      <button type="button" class="cc-kpi ol cc-kpi-btn" data-k="pay">
+        <span class="cc-kpi-label">Base $100K+</span>
+        <span class="cc-kpi-val" id="ak-pay">–</span>
+        <span class="cc-kpi-sub">Middle of posted range · tap to filter</span>
+      </button>
+      <button type="button" class="cc-kpi sl cc-kpi-btn" data-k="mine">
+        <span class="cc-kpi-label">My list</span>
+        <span class="cc-kpi-val" id="ak-mine">–</span>
+        <span class="cc-kpi-sub" id="ak-mine-sub">Interested &amp; applied · tap to show</span>
+      </button>
+    </div>
+
+    <section class="cc-mod t cc-glass" id="alljobs">
+      <div class="cc-band">
+        <div class="cc-tile">A</div>
+        <div class="cc-band-text"><div class="cc-step">Statewide · pulled from LinkedIn</div><h2>All pharma &amp; med sales jobs</h2></div>
+        <span class="cc-count" id="all-count">– jobs</span>
+      </div>
+      <p class="cc-intro">Every pharma, biotech, medical device and diagnostics field sales job in Alabama that was open on LinkedIn when this list was updated. Pick one city, several, or All, then narrow it down with the filters. Mark jobs <strong>Interested</strong>, <strong>Applied</strong> or <strong>Skip</strong> to keep track. Your marks save in this browser on this device.</p>
+      <p class="cc-status" id="all-status" role="status"></p>
+      <div class="cc-citybar">
+        <span class="cc-citylabel">Location</span>
+        <div class="cc-view cc-city" id="city-bar" role="group" aria-label="Choose cities (select any combination)"></div>
+      </div>
+      <div class="cc-specchips" id="spec-chips" role="group" aria-label="Filter by specialty"></div>
+      <div class="cc-filters" id="all-filters">
+        <label class="cc-field wide"><span>Search</span><input type="search" id="f-q" placeholder="Company, role, therapy area…" autocomplete="off"></label>
+        <div class="cc-field pay"><span id="f-pay-l">Base salary range</span><div class="al-pay">
+          <select id="f-min" aria-label="Minimum base salary"></select><i>to</i><select id="f-max" aria-label="Maximum base salary"></select>
+        </div></div>
+        <div class="cc-field"><span id="f-spec-l">Specialty</span><div class="cc-ms" id="f-spec"></div></div>
+        <div class="cc-field"><span id="f-level-l">Role level</span><div class="cc-ms" id="f-level"></div></div>
+        <div class="cc-field"><span id="f-car-l">Car</span><div class="cc-ms" id="f-car"></div></div>
+        <div class="cc-field"><span id="f-company-l">Company</span><div class="cc-ms" id="f-company"></div></div>
+        <div class="cc-field"><span id="f-status-l">My status</span><div class="cc-ms" id="f-status"></div></div>
+        <label class="cc-field"><span>Sort by</span><select id="f-sort">
+          <option value="pay">Highest pay</option><option value="new">Newest posted</option><option value="company">Company A–Z</option><option value="low">Lowest pay</option>
+        </select></label>
+      </div>
+      <p class="al-hint" id="pay-hint"></p>
+      <div class="cc-filter-foot">
+        <span>Showing <b id="all-shown">0</b> of <b id="all-total">0</b></span>
+        <label class="cc-check"><input type="checkbox" id="f-paid"> Only jobs that post pay</label>
+        <button type="button" class="cc-btn undo" id="f-reset">Reset filters</button>
+      </div>
+      <div class="cc-strip"><span class="c1">City</span><span class="c2">Role · company</span><span class="c3">Base salary · car</span></div>
+      <div class="cc-rows" id="all-list"><div class="cc-load"></div></div>
+    </section>
+
+    <footer class="cc-foot cc-glass">Pulled from LinkedIn · always confirm details on the posting</footer>
+  </div>
+</div>
+
+<script>
+(function () {
+  const $ = (id) => document.getElementById(id);
+  const JOBS = /*JOBS*/[];
+  const el = (tag, cls, text) => { const e = document.createElement(tag); if (cls) e.className = cls; if (text != null) e.textContent = text; return e; };
+  const link = (url, text, cls) => { const a = el('a', cls, text); a.href = url; a.target = '_blank'; a.rel = 'noopener'; return a; };
+  const TAG = { green: ['#A1D9B6', '#0C371F'], blue: ['#96C0EA', '#0A2F56'], amber: ['#F0C482', '#4A2702'], red: ['#EF9D91', '#561915'], purple: ['#B89EE2', '#311E52'], slate: ['#AFBECC', '#2A3A4B'], teal: ['#A1D5D5', '#063738'] };
+  const AREA = (a) => { a = a || ''; return /oncolog/i.test(a) ? ['#E39BBF', '#4B1735'] : /eye|ophth|retina/i.test(a) ? ['#A1D5D5', '#063738'] : /device|vascular|surg|ortho/i.test(a) ? ['#CDDB97', '#2E360A'] : /neuro|psych/i.test(a) ? ['#B89EE2', '#311E52'] : /cardio|stroke/i.test(a) ? ['#EF9D91', '#561915'] : /vaccin|infect/i.test(a) ? ['#F0C482', '#4A2702'] : ['#AFBECC', '#2A3A4B']; };
+  const SPEC_COLOR = {
+    'Oncology / Hematology': ['#E7A1C4', '#C77AA6', '#70244F'], 'Neuroscience / Psychiatry': ['#BBA2E6', '#9A7FD2', '#4B317A'],
+    'Eye care': ['#A7D9D9', '#75BDBA', '#0A5556'], 'Immunology / Dermatology': ['#F6CB8E', '#D7A659', '#703C04'],
+    'Rare disease': ['#F3A296', '#D57D72', '#822822'], 'Cardiovascular / Metabolic': ['#EF9D91', '#C9695C', '#561915'],
+    'Vaccines / Infectious disease': ['#E8D58C', '#C4AE55', '#4F4209'], "Women's health": ['#F2B8D2', '#D58BAE', '#6B1F45'],
+    'Primary care': ['#C9D3DC', '#9AAAB9', '#2A3A4B'], 'Medical device': ['#D2DEA1', '#A9BE68', '#445010'],
+    'Diagnostics / Lab': ['#99C1EE', '#75A3DB', '#11487E'], 'Other specialty': ['#B3C2D0', '#8C9FB3', '#2A3A4B'],
+  };
+  const SPECS = Object.keys(SPEC_COLOR);
+  const LEVELS = ['Entry / Associate', 'Sales Representative', 'Specialist / Senior', 'Account Manager / KAM', 'Manager / Director'];
+  const specOf = (j) => j.specialty || 'Other specialty';
+  const levelOf = (j) => j.level || 'Sales Representative';
+  const CAR = { 'Car allowance': ['allow', 'Car allowance'], 'Company car': ['fleet', 'Company car'], 'No car': ['none', 'No car or allowance'], 'Not stated': ['unk', 'Car not stated'] };
+  const CITY_NAME = { BHM: 'Birmingham', HSV: 'Huntsville', MGM: 'Montgomery', MOB: 'Mobile / Baldwin', TCL: 'Tuscaloosa', AUB: 'Auburn / Opelika', DHN: 'Dothan', SHL: 'Florence / Shoals', GAD: 'Gadsden / Anniston', STW: 'Statewide / other' };
+  const CITY_SHORT = { BHM: 'Birmingham', HSV: 'Huntsville', MGM: 'Montgomery', MOB: 'Mobile', TCL: 'Tuscaloosa', AUB: 'Auburn', DHN: 'Dothan', SHL: 'Shoals', GAD: 'Gadsden', STW: 'Statewide' };
+  const citiesOf = (j) => (Array.isArray(j.cities) && j.cities.length ? j.cities : ['STW']);
+  const kfmt = (v) => '$' + Math.round(v / 1000) + 'K';
+  const base = (r) => r.base_min == null ? 'Base not listed' : (r.base_max && r.base_max !== r.base_min ? `${kfmt(r.base_min)}–${kfmt(r.base_max)}` : kfmt(r.base_min));
+  const top = (r) => r.base_min == null ? 0 : (r.base_max ?? r.base_min);
+  const mid = (r) => r.base_min == null ? 0 : (r.base_min + (r.base_max ?? r.base_min)) / 2;
+  const day = (s) => s ? new Date(/^\d{4}-\d{2}-\d{2}$/.test(s) ? s + 'T12:00' : s).toLocaleDateString('en-US', { month: 'short', day: 'numeric' }) : '—';
+  const tag = (text, [bg, ink], cls = 'cc-tag') => { const t = el('span', cls, text); t.style.background = bg; t.style.color = ink; return t; };
+  const store = { get(k, d) { try { const v = localStorage.getItem(k); return v ? JSON.parse(v) : d; } catch (e) { return d; } }, set(k, v) { try { localStorage.setItem(k, JSON.stringify(v)); } catch (e) {} } };
+
+  /* ---------- Marks: saved in this browser ---------- */
+  let marks = store.get('al-marks', {});
+  let markCol = null; // db collection for this viewer, when available
+  const ST = { interested: ['Interested', TAG.green], applied: ['Applied', TAG.blue], skipped: ['Skipped', TAG.red], gone: ['No longer available', TAG.slate] };
+  const statusOf = (j) => (marks[j.id] && marks[j.id].s) || 'none';
+  async function setMark(j, s, buttons) {
+    buttons.forEach((b) => (b.disabled = true));
+    $('all-status').textContent = '';
+    const prev = marks[j.id];
+    if (s) marks[j.id] = { s, at: new Date().toISOString() }; else delete marks[j.id];
+    store.set('al-marks', marks);
+    drawAll(); redrawSpeckle();
+    if (!markCol) return;
+    try {
+      if (s) await markCol.doc(j.id).set({ s, at: marks[j.id].at });
+      else await markCol.doc(j.id).delete();
+    } catch (e) {
+      if (prev) marks[j.id] = prev; else delete marks[j.id];
+      store.set('al-marks', marks); drawAll();
+      $('all-status').textContent = 'That didn’t save. Check your connection and tap it again.';
+    }
+  }
+
+  /* ---------- Filters ---------- */
+  const PAY_STEPS = [40, 50, 60, 70, 80, 90, 100, 110, 120, 130, 140, 150, 160, 175, 200, 225, 250];
+  const ACTIVE = ['none', 'interested', 'applied'];
+  const F_DEFAULT = { q: '', spec: [], level: [], car: [], company: [], status: ACTIVE.slice(), min: '', max: '', sort: 'pay', paid: false, city: ['BHM'] };
+  const MULTI = ['spec', 'level', 'car', 'company', 'status', 'city'];
+  const fixF = (f) => { MULTI.forEach((k) => { const v = f[k]; f[k] = Array.isArray(v) ? v.slice() : []; }); return f; };
+  let F = fixF({ ...F_DEFAULT, ...store.get('al-filters', {}) });
+  const saveF = () => store.set('al-filters', F);
+  const sameSet = (a, b) => a.length === b.length && a.every((x) => b.includes(x));
+  const inCity = (j) => !F.city.length || citiesOf(j).some((c) => F.city.includes(c));
+
+  const msOpen = { id: null };
+  function closeMs() {
+    if (!msOpen.id) return;
+    const box = $(msOpen.id); msOpen.id = null;
+    if (box) { box.querySelector('.cc-ms-pop').hidden = true; box.querySelector('.cc-ms-btn').setAttribute('aria-expanded', 'false'); }
+  }
+  document.addEventListener('click', (e) => { if (msOpen.id && !e.composedPath().includes($(msOpen.id))) closeMs(); });
+  document.addEventListener('keydown', (e) => { if (e.key === 'Escape' && msOpen.id) { const id = msOpen.id; closeMs(); $(id).querySelector('.cc-ms-btn').focus(); } });
+  function fillMulti(id, key, allText, items, defaultText) {
+    const box = $(id), sel = F[key];
+    let btn = box.querySelector('.cc-ms-btn'), pop = box.querySelector('.cc-ms-pop');
+    if (!btn) {
+      btn = el('button', 'cc-ms-btn'); btn.type = 'button'; btn.setAttribute('aria-haspopup', 'true'); btn.setAttribute('aria-expanded', 'false');
+      btn.setAttribute('aria-labelledby', id + '-l ' + id + '-t');
+      btn.append(el('span', 't')); btn.querySelector('.t').id = id + '-t';
+      pop = el('div', 'cc-ms-pop'); pop.hidden = true; pop.setAttribute('role', 'group'); pop.setAttribute('aria-labelledby', id + '-l');
+      btn.addEventListener('click', (e) => {
+        e.stopPropagation();
+        const opening = pop.hidden; closeMs();
+        if (opening) {
+          pop.hidden = false; btn.setAttribute('aria-expanded', 'true'); msOpen.id = id;
+          const r = box.getBoundingClientRect(); box.classList.toggle('right', r.left + 260 > window.innerWidth - 16);
+          const first = pop.querySelector('input'); if (first) first.focus();
+        }
+      });
+      box.append(btn, pop);
+    }
+    const all = items.concat(sel.filter((v) => !items.some((i) => i.value === v)).map((v) => ({ value: v, text: v, count: 0 })));
+    const total = items.reduce((a, i) => a + i.count, 0);
+    const picked = all.filter((i) => sel.includes(i.value));
+    const pickedN = picked.reduce((a, i) => a + i.count, 0);
+    const isDefault = key === 'status' && sameSet(sel, ACTIVE);
+    btn.querySelector('.t').textContent = isDefault ? `${defaultText} (${pickedN})` : !picked.length ? allText.replace('{n}', total)
+      : picked.length === 1 ? `${picked[0].text} (${picked[0].count})` : `${picked.length} picked (${pickedN})`;
+    btn.title = picked.length > 1 ? picked.map((i) => i.text).join(', ') : '';
+    box.classList.toggle('on', picked.length > 0 && !isDefault);
+    const focused = document.activeElement && pop.contains(document.activeElement) ? document.activeElement.value : null;
+    const row = (value, text, count, checked, isAll) => {
+      const lab = el('label', 'cc-ms-opt' + (isAll ? ' all' : '') + (!isAll && !count && !checked ? ' zero' : ''));
+      const cb = el('input'); cb.type = 'checkbox'; cb.value = value; cb.checked = checked;
+      cb.addEventListener('change', () => {
+        if (isAll) F[key] = [];
+        else F[key] = cb.checked ? F[key].concat(value) : F[key].filter((v) => v !== value);
+        if (key === 'company' || key === 'spec') F[key].sort();
+        saveF(); drawAll(); redrawSpeckle();
+      });
+      lab.append(cb, el('span', 't', text), el('span', 'c', String(count)));
+      return lab;
+    };
+    pop.replaceChildren(row('__all', allText.replace(/ \(\{n\}\)$/, ''), total, !sel.length, true), ...all.map((i) => row(i.value, i.text, i.count, sel.includes(i.value), false)));
+    if (focused) { const again = [...pop.querySelectorAll('input')].find((x) => x.value === focused); if (again) again.focus(); }
+  }
+
+  /* ---------- Rows ---------- */
+  const openJobs = new Set();
+  function jobRow(j) {
+    const det = el('details', 'cc-job');
+    if (openJobs.has(j.id)) det.open = true;
+    det.addEventListener('toggle', () => { det.open ? openJobs.add(j.id) : openJobs.delete(j.id); });
+    const sc = SPEC_COLOR[specOf(j)] || SPEC_COLOR['Other specialty'];
+    det.style.setProperty('--spec', sc[1]);
+    const sum = el('summary');
+    const c1 = el('span', 'c1'); c1.append(tag(citiesOf(j).map((c) => CITY_SHORT[c] || c).join(' + '), TAG.teal));
+    const c2 = el('span', 'c2'); c2.append(el('span', 'cc-main', j.role), el('span', 'cc-sub', [j.company, j.territory].filter(Boolean).join(' · ')));
+    const pill = el('span', 'cc-specpill', j.area && j.area.length < 34 ? j.area : specOf(j)); pill.style.background = sc[0]; pill.style.color = sc[2]; c2.append(pill);
+    const c3 = el('span', 'c3');
+    const [carCls, carText] = CAR[j.car] || CAR['Not stated'];
+    c3.append(el('span', 'cc-salary', base(j)), el('span', 'cc-car ' + carCls, carText));
+    const act = el('span', 'cc-act');
+    const st = statusOf(j);
+    const btn = (cls, text, s, aria) => {
+      const b = el('button', 'cc-btn ' + cls, text); b.type = 'button'; b.setAttribute('aria-label', aria);
+      b.addEventListener('click', (e) => { e.preventDefault(); e.stopPropagation(); setMark(j, s, [b]); });
+      return b;
+    };
+    if (st === 'none') act.append(btn('apply', 'Interested', 'interested', `Mark ${j.role} at ${j.company} as interested`), btn('skip', 'Skip', 'skipped', `Skip ${j.role} at ${j.company}`));
+    else { const m = el('span', 'al-mark'); m.append(tag(ST[st][0], ST[st][1], 'cc-state'), btn('undo', 'Undo', null, `Clear your mark on ${j.role} at ${j.company}`)); act.append(m); }
+    const chev = el('span', 'cc-chev', '▾'); chev.setAttribute('aria-hidden', 'true');
+    sum.append(c1, c2, c3, act, chev);
+    const body = el('div', 'cc-detail');
+    const head = el('span', 'cc-sub'); head.style.cssText = 'display:flex;flex-wrap:wrap;gap:4px 8px;align-items:center';
+    head.append(tag(j.area || specOf(j), AREA(j.area || specOf(j)), 'cc-area'), tag(levelOf(j), TAG.slate, 'cc-area'), tag(citiesOf(j).map((c) => CITY_NAME[c] || c).join(' + '), TAG.teal, 'cc-area'));
+    body.append(head);
+    if (j.summary) body.append(el('p', null, j.summary));
+    const facts = el('dl', 'cc-facts');
+    const fact = (k, v) => { if (v) facts.append(el('dt', null, k), el('dd', null, v)); };
+    fact('Base', base(j));
+    fact('Incentive', (j.incentive || 'Not stated') + (j.quarterly_stated ? ' · Quarterly' : ''));
+    fact('Car', j.car_detail || carText);
+    fact('Level', levelOf(j));
+    fact('Note', j.note);
+    if (j.found) fact('Posted', day(j.found));
+    if (j.verified_on) fact('Checked', 'Open on LinkedIn · ' + day(j.verified_on));
+    const foot = el('div', 'cc-detail-foot');
+    foot.append(link(j.url, 'Open the job posting on LinkedIn →', 'cc-posting'));
+    const grp = el('span', 'cc-foot-btns');
+    if (st !== 'applied') {
+      const did = el('button', 'cc-btn did', 'Applied'); did.type = 'button'; did.setAttribute('aria-label', `Mark ${j.role} at ${j.company} as applied`);
+      did.addEventListener('click', (e) => { e.preventDefault(); setMark(j, 'applied', [did]); }); grp.append(did);
+    }
+    if (st !== 'gone') {
+      const gone = el('button', 'cc-btn gone', 'No Longer Available'); gone.type = 'button'; gone.setAttribute('aria-label', `Mark ${j.role} at ${j.company} as no longer available`);
+      gone.addEventListener('click', (e) => { e.preventDefault(); setMark(j, 'gone', [gone]); }); grp.append(gone);
+    }
+    foot.append(grp);
+    body.append(facts, foot);
+    det.append(sum, body);
+    return det;
+  }
+
+  /* ---------- City buttons (built from the data; empty cities are hidden) ---------- */
+  const cityBar = $('city-bar');
+  [...Object.keys(CITY_NAME), 'ALL'].forEach((c) => {
+    const b = el('button'); b.type = 'button'; b.dataset.city = c;
+    b.append(document.createTextNode((c === 'ALL' ? 'All' : CITY_NAME[c]) + ' '), el('span', 'n')); b.querySelector('.n').id = 'city-n-' + c;
+    b.addEventListener('click', () => {
+      if (c === 'ALL') F.city = [];
+      else {
+        F.city = F.city.includes(c) ? F.city.filter((x) => x !== c) : F.city.concat(c);
+        const shown = Object.keys(CITY_NAME).filter((k) => !$('city-n-' + k).parentElement.hidden);
+        if (shown.every((k) => F.city.includes(k))) F.city = [];
+      }
+      saveF(); drawAll(); redrawSpeckle();
+    });
+    cityBar.append(b);
+  });
+  const payOpts = (id, anyText) => { const s = $(id); s.append(new Option(anyText, '')); PAY_STEPS.forEach((k) => s.append(new Option('$' + k + 'K', String(k * 1000)))); };
+  payOpts('f-min', 'No min'); payOpts('f-max', 'No max');
+
+  function drawAll() {
+    const everywhere = JOBS;
+    const visibleCount = (c) => everywhere.filter((j) => statusOf(j) !== 'gone' && statusOf(j) !== 'skipped' && citiesOf(j).includes(c)).length;
+    Object.keys(CITY_NAME).forEach((c) => { const n = visibleCount(c); const b = $('city-n-' + c); b.textContent = `· ${n}`; b.parentElement.hidden = !everywhere.some((j) => citiesOf(j).includes(c)); });
+    $('city-n-ALL').textContent = `· ${everywhere.filter((j) => statusOf(j) !== 'gone' && statusOf(j) !== 'skipped').length}`;
+    F.city = F.city.filter((c) => !$('city-n-' + c).parentElement.hidden);
+    cityBar.querySelectorAll('button').forEach((b) => b.setAttribute('aria-pressed', String(b.dataset.city === 'ALL' ? !F.city.length : F.city.includes(b.dataset.city))));
+    const live = everywhere.filter(inCity);
+    const cityName = !F.city.length ? 'All of Alabama' : F.city.length === 1 ? CITY_NAME[F.city[0]] : F.city.length === 2 ? F.city.map((c) => CITY_SHORT[c]).join(' + ') : `${F.city.length} cities`;
+    const active = live.filter((j) => ACTIVE.includes(statusOf(j)));
+    $('ak-open-label').textContent = `Open jobs · ${cityName}`;
+    $('ak-open').textContent = active.length;
+    $('ak-paid').textContent = active.filter((j) => j.base_min != null).length;
+    $('ak-pay').textContent = active.filter((j) => j.base_min != null && mid(j) >= 100000).length;
+    const mine = live.filter((j) => statusOf(j) === 'interested' || statusOf(j) === 'applied');
+    $('ak-mine').textContent = mine.length;
+    $('ak-mine-sub').textContent = `${live.filter((j) => statusOf(j) === 'interested').length} interested · ${live.filter((j) => statusOf(j) === 'applied').length} applied · tap to show`;
+    const bhm = everywhere.filter((j) => ACTIVE.includes(statusOf(j)) && citiesOf(j).includes('BHM')).length;
+    $('takeaway').textContent = `${everywhere.filter((j) => ACTIVE.includes(statusOf(j))).length} open pharma, biotech, device and diagnostics sales jobs across Alabama, including ${bhm} in the Birmingham area.`;
+    document.querySelector('[data-k="paid"]').setAttribute('aria-pressed', String(!!F.paid));
+    document.querySelector('[data-k="pay"]').setAttribute('aria-pressed', String(F.min === '100000' && !F.max));
+    document.querySelector('[data-k="mine"]').setAttribute('aria-pressed', String(sameSet(F.status, ['interested', 'applied'])));
+    document.querySelector('[data-k="open"]').setAttribute('aria-pressed', 'false');
+
+    const q = F.q.trim().toLowerCase();
+    let lo = Number(F.min) || 0, hi = Number(F.max) || 0;
+    if (lo && hi && lo > hi) [lo, hi] = [hi, lo];
+    const ranged = !!(lo || hi);
+    // A job fits the range when the middle of its posted base range falls inside it.
+    const inRange = (j, a, b) => j.base_min != null && (!a || mid(j) >= a) && (!b || mid(j) <= b);
+    const payOk = (j) => !ranged || inRange(j, lo, hi);
+    const statusIn = (j, list) => !list.length || list.includes(statusOf(j));
+    const passes = (j, skip) => {
+      if (skip !== 'status' && !statusIn(j, F.status)) return false;
+      if (skip !== 'spec' && F.spec.length && !F.spec.includes(specOf(j))) return false;
+      if (skip !== 'level' && F.level.length && !F.level.includes(levelOf(j))) return false;
+      if (skip !== 'car' && F.car.length && !F.car.includes(j.car || 'Not stated')) return false;
+      if (skip !== 'company' && F.company.length && !F.company.includes(j.company)) return false;
+      if (F.paid && j.base_min == null) return false;
+      if (skip !== 'pay' && !payOk(j)) return false;
+      if (q && ![j.company, j.role, j.area, j.territory, j.summary, specOf(j)].join(' ').toLowerCase().includes(q)) return false;
+      return true;
+    };
+    const facet = (skip, fn) => live.filter((j) => passes(j, skip)).reduce((m, j) => { const k = fn(j); m[k] = (m[k] || 0) + 1; return m; }, {});
+    const specC = facet('spec', specOf), levC = facet('level', levelOf), carC = facet('car', (j) => j.car || 'Not stated'), coC = facet('company', (j) => j.company || '');
+    const specTotal = Object.values(specC).reduce((a, b) => a + b, 0);
+    const chip = (label, value, n, colors) => {
+      const b = el('button', 'cc-specchip'); b.type = 'button';
+      b.style.setProperty('--sbg', colors[0]); b.style.setProperty('--sb', colors[1]); b.style.setProperty('--si', colors[2]);
+      b.append(el('b', null, String(n)), document.createTextNode(label));
+      b.setAttribute('aria-pressed', String(value ? F.spec.includes(value) : !F.spec.length));
+      b.addEventListener('click', () => { F.spec = !value ? [] : F.spec.includes(value) ? F.spec.filter((v) => v !== value) : F.spec.concat(value).sort(); saveF(); drawAll(); redrawSpeckle(); });
+      return b;
+    };
+    $('spec-chips').replaceChildren(chip('All specialties', '', specTotal, ['#E9EEF2', '#BCC7D3', '#121A22']),
+      ...SPECS.filter((v) => specC[v] || F.spec.includes(v)).map((v) => chip(v, v, specC[v] || 0, SPEC_COLOR[v])));
+    const items = (vals, counts) => vals.map((v) => ({ value: v, text: v, count: counts[v] || 0 }));
+    fillMulti('f-spec', 'spec', 'All specialties ({n})', items(SPECS.filter((v) => specC[v]), specC));
+    fillMulti('f-level', 'level', 'All levels ({n})', items(LEVELS.filter((v) => levC[v]), levC));
+    fillMulti('f-car', 'car', 'Any car policy ({n})', items(Object.keys(CAR).filter((v) => carC[v]), carC));
+    fillMulti('f-company', 'company', 'All companies ({n})', items(Object.keys(coC).filter(Boolean).sort((a, b) => a.localeCompare(b)), coC));
+    const stPool = live.filter((j) => passes(j, 'status'));
+    fillMulti('f-status', 'status', 'Everything ({n})', [['none', 'Not marked yet'], ['interested', 'Interested'], ['applied', 'Applied'], ['skipped', 'Skipped'], ['gone', 'No longer available']]
+      .map(([v, t]) => ({ value: v, text: t, count: stPool.filter((j) => statusOf(j) === v).length })), 'Not skipped');
+    // Pay dropdowns show how many jobs each choice would leave
+    const payPool = live.filter((j) => passes(j, 'pay'));
+    const fits = (a, b) => payPool.filter((j) => inRange(j, a, b)).length;
+    [...$('f-min').options].forEach((o) => { const v = Number(o.value) || 0; o.textContent = v ? '$' + v / 1000 + 'K+' : 'No min'; o.disabled = !!v && !fits(v, hi); });
+    [...$('f-max').options].forEach((o) => { const v = Number(o.value) || 0; o.textContent = v ? 'Up to $' + v / 1000 + 'K' : 'No max'; o.disabled = !!v && !fits(lo, v); });
+    $('pay-hint').textContent = ranged ? `Showing jobs whose posted base salary averages ${lo && hi ? kfmt(lo) + '–' + kfmt(hi) : lo ? kfmt(lo) + ' or more' : kfmt(hi) + ' or less'} (the middle of each posted range). Jobs that don’t post pay are hidden while a range is set.` : '';
+    $('f-q').value = F.q; $('f-min').value = F.min; $('f-max').value = F.max; $('f-sort').value = F.sort; $('f-paid').checked = !!F.paid;
+    const rows = live.filter((j) => passes(j));
+    const by = {
+      pay: (a, b) => top(b) - top(a) || mid(b) - mid(a) || String(b.found || '').localeCompare(String(a.found || '')),
+      low: (a, b) => (a.base_min == null) - (b.base_min == null) || mid(a) - mid(b),
+      new: (a, b) => String(b.found || '').localeCompare(String(a.found || '')),
+      company: (a, b) => String(a.company || '').localeCompare(String(b.company || '')),
+    };
+    rows.sort(by[F.sort] || by.pay);
+    $('all-shown').textContent = rows.length; $('all-total').textContent = live.length;
+    $('all-count').textContent = `${live.length} job${live.length === 1 ? '' : 's'}`;
+    $('all-list').replaceChildren(...(rows.length ? rows.map(jobRow)
+      : [el('p', 'cc-empty', live.length ? 'No jobs match these filters. Try widening them or tap Reset filters.' : 'No jobs listed for this city right now. Try All.')]));
+  }
+  $('f-q').addEventListener('input', (e) => { F.q = e.target.value; saveF(); drawAll(); redrawSpeckle(); });
+  ['min', 'max', 'sort'].forEach((k) => $('f-' + k).addEventListener('change', (e) => { F[k] = e.target.value; saveF(); drawAll(); redrawSpeckle(); }));
+  $('f-paid').addEventListener('change', (e) => { F.paid = e.target.checked; saveF(); drawAll(); redrawSpeckle(); });
+  $('f-reset').addEventListener('click', () => { F = fixF({ ...F_DEFAULT, city: F.city }); closeMs(); saveF(); drawAll(); redrawSpeckle(); });
+  document.querySelectorAll('#all-kpis .cc-kpi-btn').forEach((b) => b.addEventListener('click', () => {
+    const k = b.dataset.k;
+    if (k === 'open') F = fixF({ ...F_DEFAULT, city: F.city });
+    if (k === 'paid') F.paid = !F.paid;
+    if (k === 'pay') { const on = F.min === '100000' && !F.max; F.min = on ? '' : '100000'; F.max = ''; }
+    if (k === 'mine') F.status = sameSet(F.status, ['interested', 'applied']) ? ACTIVE.slice() : ['interested', 'applied'];
+    saveF(); drawAll(); redrawSpeckle();
+    $('alljobs').scrollIntoView({ behavior: 'smooth', block: 'start' });
+  }));
+
+  /* ---------- Speckle background ---------- */
+  const PALETTE = ['#11487E', '#165832', '#822822', '#4B317A', '#703C04', '#0A5556', '#70244F', '#445010', '#2A3A4B'];
+  const rng = (seed) => () => { seed |= 0; seed = (seed + 0x6D2B79F5) | 0; let t = Math.imul(seed ^ (seed >>> 15), 1 | seed); t = (t + Math.imul(t ^ (t >>> 7), 61 | t)) ^ t; return ((t ^ (t >>> 14)) >>> 0) / 4294967296; };
+  let spW = 0, spH = 0, spRaf = 0;
+  function drawSpeckle() {
+    const canvas = $('cc-speckle'), host = $('cc');
+    if (!canvas || !canvas.getContext) return;
+    const W = host.clientWidth, H = Math.max(host.scrollHeight, window.innerHeight);
+    if (!W || (W === spW && Math.abs(H - spH) < 4)) return;
+    spW = W; spH = H;
+    const dpr = Math.min(2, window.devicePixelRatio || 1);
+    canvas.style.height = H + 'px'; canvas.width = Math.round(W * dpr); canvas.height = Math.round(H * dpr);
+    const ctx = canvas.getContext('2d'); ctx.setTransform(dpr, 0, 0, dpr, 0, 0); ctx.clearRect(0, 0, W, H);
+    const rand = rng(1013), n = Math.round((W * H) / 520);
+    for (let i = 0; i < n; i++) {
+      const x = rand() * W, y = rand() * H, roll = rand();
+      ctx.globalAlpha = 0.55 + rand() * 0.4;
+      ctx.fillStyle = PALETTE[Math.floor(rand() * PALETTE.length)];
+      const r = roll < 0.6 ? 0.6 + rand() * 0.7 : roll < 0.95 ? 1.3 + rand() * 0.9 : 2.2 + rand() * 0.8;
+      ctx.beginPath(); ctx.arc(x, y, r, 0, Math.PI * 2); ctx.fill();
+    }
+    ctx.globalAlpha = 1;
+  }
+  function redrawSpeckle() { cancelAnimationFrame(spRaf); spRaf = requestAnimationFrame(drawSpeckle); }
+  if (window.ResizeObserver) new ResizeObserver(redrawSpeckle).observe($('cc-page'));
+  window.addEventListener('resize', redrawSpeckle);
+  document.addEventListener('toggle', redrawSpeckle, true);
+
+  drawAll(); redrawSpeckle();
+
+  /* ---------- Sync marks to her own private space when she's signed in to Claude ---------- */
+  (async () => {
+    const [db, user] = await Promise.all([window.claude?.use?.('db'), window.claude?.use?.('user')]);
+    if (!db || !user) return;
+    let id = null; try { id = await user.id(); } catch (e) {}
+    if (!id) return;
+    markCol = db.collection('data/users/' + id);
+    let first = true;
+    markCol.onSnapshot((snap) => {
+      const remote = {};
+      snap.docs.filter((d) => d.exists).forEach((d) => { const v = d.data(); if (v && v.s) remote[d.id] = { s: v.s, at: v.at }; });
+      if (first) {
+        first = false;
+        // Carry over anything marked in this browser before signing in
+        Object.entries(marks).forEach(([k, v]) => { if (!remote[k]) { remote[k] = v; markCol.doc(k).set(v).catch(() => {}); } });
+      }
+      marks = remote; store.set('al-marks', marks); drawAll(); redrawSpeckle();
+    }, () => {});
+  })();
+})();
+</script>
