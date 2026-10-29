@@ -1,139 +1,136 @@
-4149622620|Respiratory Clinical Sales Specialist|Quipt Home Medical|Birmingham / Clayton / Montgomery / Phenix City|2025-02-11|||A||1||4
-4149628133|Medical Sales Representative|Quipt Home Medical|Montgomery|2025-02-11|||A||21||1
-4482032602|Territory Manager, Dermatology & Immunology - Alabama S|SUN PHARMA|Alabama / Mobile|2026-10-21|130000|160000||Q|3||2
-4477725970|Rheumatology Territory Business Manager, Birmingham, AL|argenx|Montgomery / Huntsville / Birmingham|2026-10-16|140000|192500|||5||3
-4476271690|Medical Specialist II Ophthalmology -TN, AL, & Pensacola to Tallahassee, FL|Regeneron|Alabama|2026-10-09|178500|241500|||5||2
-4478196080|Clinical Sales Specialist (CS) - Montgomery, AL|Corcept Therapeutics|Montgomery|2026-10-14|140000|155000|||25||1
-4481006349|Neurology Territory Business Manager, Birmingham (Overlay)|argenx|Montgomery / Huntsville / Birmingham|2026-10-23|140000|192500|||5||3
-4484262634|Gastroenterology Area Business Manager - Mississippi Valley|Pfizer|Birmingham|2026-10-27|139000|280400|||5||1
-4479890408|Cardiovascular-Renal Sales Consultant - Montgomery, AL|Boehringer Ingelheim|Montgomery|2026-10-15|||||18||1
-4483173076|Clinical Account Specialist HS - Mobile|UCB|Mobile|2026-10-23|132000|174000|||3||1
-4458012697|Specialty Account Manager, Long Term Care (Mobile, AL)|Axsome Therapeutics, Inc.|Mobile|2026-08-27|120000|185000||Q|5||1
-4454844127|NeuroCare Sales Specialist - Birmingham, AL|Teva Pharmaceuticals|Birmingham|2026-08-15|88000|160000|||1||1
-4471949894|Account Specialist (Birmingham, AL Region – Multiple Territories)|Praxis Precision Medicines, Inc.|Birmingham|2026-09-29||||Q|5||1
-4479748331|Territory Manager - Alabama South|Tandem Diabetes Care|Greater Dothan|2026-10-15|91890|112310|||3||1
-4472630622|Neuroscience Specialty Representative|TSP, a Syneos Health company|Huntsville / Birmingham|2026-09-30|148000|180000|||00||2
-4483378786|Specialty Representative/Senior Specialty Representative - Bone Health - Birmingham E, AL|Amgen|Birmingham|2026-10-25|89880|121602|||4||2
-4476103109|Territory Business Manager Psychiatry – Gulf Coast|Alkermes|Mobile|2026-10-05|125000|155000|||2||1
-4473389479|CNS/Neuroscience, ADHD Territory Sales Representative - Montgomery AL|Collegium Pharmaceutical, Inc.|Auburn / Phenix City / Prattville / Opelika / Dothan / Montgomery|2026-10-02||||Q|4||6
-4473000820|Pharmaceutical Sales - Neuroscience Specialist - Montgomery, AL|Otsuka Pharmaceutical Companies (U.S.)|Montgomery|2026-10-26|||||2||1
-4473951288|Neuroscience Specialty Representative|Ipsen|Huntsville / Birmingham|2026-10-07|148000|180000|||00||2
-4479412299|Rare Disease Business Manager, Alpha1 (Birmingham, AL)|Takeda|Alabama|2026-10-21|||||3||1
-4470047251|Oncology Sales Specialist- S2 - (Birmingham, AL) (field based)|Eisai US|Birmingham|2026-10-16|151040|198200|||2||1
-4477822211|Health Systems Associate Director - Southeast (Birmingham, AL)|SUN PHARMA|Alabama / Birmingham|2026-10-09|143500|235500|C|Q|3||2
-4480572023|Senior Specialty Representative - Bone Health - Birmingham West, AL|Amgen|Birmingham|2026-10-21|115036|155638|||3||2
-4466927932|Territory Sales Manager - Specialty (Birmingham S, AL)|Sumitomo Pharma America, Inc.|Birmingham|2026-10-10|113600|142000|||||1
-4466707506|Specialty Representative/Senior Specialty Representative - Rheumatology - Birmingham, AL|Amgen|Birmingham|2026-09-12|95167|116315|||4||2
-4457790900|Specialty Business Manager, Derm - Cullman/Huntsville|Takeda|Huntsville / Birmingham / Alabama|2026-10-09|||||3||3
-4471124306|Pharmaceutical Sales - Territory Manager - GI Specialty|Eli Lilly and Company|Montgomery|2026-10-15|87000|159500|||||2
-4473377411|Clinical Sales Specialist (CS) - Birmingham, AL|Corcept Therapeutics|Birmingham|2026-10-24|140000|155000|||25||1
-4472056775|Ophthalmic Business Specialist - Birmingham, AL|Astellas Pharma|Birmingham|2026-10-17|120897|181800|C|Q|5||1
-4473928909|Primary Care & Specialty Sales Consultant - Dothan, AL|Bayer|Dothan|2026-10-22|124320|186480|||10||1
-4474473697|Oncology Account Manager (Hematology) Florida-Panhandle|GSK|Dothan|2026-10-27|||||3||1
-4453585631|Territory Sales Manager - Birmingham, AL (Postpartum Depression)|Supernus Pharmaceuticals, Inc.|Birmingham|2026-08-20|100000|110000||Q|30||1
-4337433907|Neuroscience District Sales Manager (Psychiatry) - Gulf Coast District|Vanda Pharmaceuticals|Huntsville / Birmingham|2026-10-19|||A||10||2
-4484002404|Long Term Care Account Manager - Birmingham, AL|Teva Pharmaceuticals|Birmingham|2026-10-27|88000|160000|||2||1
-4481766939|Senior Oncology Account Manager (Atlanta West)|Immunome, Inc.|Birmingham|2026-10-20|210000|235000|||7||1
-4460644722|Clinical Account Executive, Oncology - Birmingham, AL|AbbVie|Birmingham|2026-10-14|||C||5||1
-4471222636|Pharma/Healthcare Sales Rep|Tris Pharma|Montgomery|2026-10-20|90000|105000|C||1||2
-4449819925|Therapeutic Sales Specialist - FOCUS ON THE PSYCHEDELIC SPACE - Building a world-class sales team - Alabama|RxSalesPros|Alabama|2026-09-27|||||8||1
-4476114876|Area Business Lead, Rare Disease (First Line Leader) - South East (Tennessee, Georgia, Alabama)|Otsuka Pharmaceutical Companies (U.S.)|Montgomery|2026-10-27|||||3||1
-4480233766|Specialty Representative, Migraine - Panama City Beach, FL/Dothan AL|AbbVie|Dothan|2026-10-19|||C||||1
-4478382844|Territory Sales Manager|TSP, a Syneos Health company|Birmingham|2026-10-12||||Q|5||1
-4481947735|Clinical Sales Manager (Birmingham)|Karius|Birmingham|2026-10-23|||||5||1
-4483369910|Specialty/Senior Specialty Representative - Bone Health - Decatur/Tupelo, MS (Overlay)|Amgen|Decatur|2026-10-28|89880|121602|||4||2
-4466707515|Specialty Representative - University of Alabama - United States Field Worker|Amgen|Tuscaloosa|2026-09-18|89880|121602|||4||2
-4442118297|Pharma Sales Detail Rep|Innovativ Pharma|Montgomery|2026-07-17|||||||1
-4442112247|BioPharma Account Rep|Innovativ Pharma|Huntsville|2026-07-17|||||||1
-4453499092|Hospital Senior Account Manager, Anti-Infectives -  Birmingham, AL|GSK|Huntsville|2026-10-19|||||5||1
-4456454050|Hospital Specialty Representative|TSP, a Syneos Health company|Birmingham|2026-09-04|||||5||1
-4476694874|Adult Immunization Specialist (Vaccines) Montgomery, Alabama|GSK|Dothan|2026-10-28|||||40||1
-4458286241|Sales Specialist|QOL Medical LLC|Birmingham|2026-09-15|||||3||1
-4452593639|Territory Manager|Soleo Health|Hoover|2026-08-18|||A||||1
-4478596981|Abbott Nutrition - Pediatric Sales Representative - Montgomery, AL|Abbott|Alabama|2026-10-20|61300|122700|||||1
-4475451274|Pharmaceutical Sales - Territory Manager, Dermatology/Allergy/Immunology (MOBILE - BIRMINGHAM, AL)|Vanigent|Mobile|2026-10-28|||C||2||1
-4481517517|Business Development Manager, Immunoassays & Biomarkers (Southeast)|Spear Bio|Birmingham|2026-10-20|160000|180000|||10||1
-4469246957|Diabetes Sales Associate - Birmingham, AL|Abbott|Birmingham|2026-09-28|61300|122700|||3||1
-4467225998|Business Account Executive, South Alabama|Alnylam Pharmaceuticals|Mobile|2026-10-27|144500|195500|||5||1
-4465062121|Clinical Account Manager/Senior Clinical Account Manager - Birmingham, AL|Sobi - Swedish Orphan Biovitrum AB (publ)|Birmingham|2026-10-22|170000|210000|||5||1
-4442135362|Pharmaceutical Rep - Entry Level|Innovativ Pharma|Auburn|2026-07-17|||||||1
-4459083989|Sales Specialist|TSP, a Syneos Health company|Birmingham|2026-08-26|||||3||1
-4458429743|ViiV Healthcare (GSK) Regional Sales Director, HIV Prevention LAI, Southeast|GSK|Birmingham, Alabama|2026-10-20|||||30||1
-4466498664|Cardiovascular Key Account Manager - Birmingham, AL|Amgen|Birmingham|2026-09-12|||||2||2
-4455977377|Cardiovascular-Renal Sales Consultant-Mobile, AL|Boehringer Ingelheim|Mobile|2026-10-08|||||18||1
-4483182104|Area Sales Manager - HAE - Birmingham, AL|CSL|Birmingham|2026-10-24|||||5||1
-4483122536|Aquestive Therapeutic Specialty Representative|Inizio Engage|Birmingham|2026-10-23|125000|150000|||20||1
-4472238440|Specialty Urology Account Manager|Syneos Health Commercial Solutions|Birmingham|2026-10-17|160000|170000|A||4||1
-4473523576|Sales Representative (Primary Care)|Syneos Health Commercial Solutions|Mobile|2026-10-21|||||5||1
-4483124383|Pharmaceutical Field Sales Representative|Inizio Engage|Huntsville|2026-10-23|70000|90000|||||1
-4481362923|Specialty Representative, Psychiatry - Birmingham, AL|AbbVie|Birmingham|2026-10-22|||C||||1
-4472595354|Remote/Hybrid Pharmaceutical Sales Representative- CST/MST|Amplity|Birmingham|2026-10-23|70000|73000|A||1||1
-4477176987|Clinical Account Specialist - Mobile, AL|Ionis Pharmaceuticals, Inc.|Mobile|2026-10-08|140000|160000|||30||1
-4476197162|Sales Representative- Elite Dermatology|Top Candidate Search Group|Greater Birmingham, Alabama|2026-10-26|||||2||1
-4483282389|Oncology Account Executive - AL/MS|Hologic, Inc.|Birmingham|2026-10-27|220000|250000|||5||1
-4480163710|Regional Account Specialist - Mass Spectrometry|Roche|Birmingham|2026-10-15|119100|221000|||7||1
-4481263882|Senior District Manager, Immunology Autoantibody Diseases, Gulf Coast|Johnson & Johnson Innovative Medicine|Birmingham|2026-10-19|||||||1
-4482766806|Associate Account Executive (Panhandle of FL) – Johnson & Johnson MedTech – Surgery|Johnson & Johnson MedTech|Mobile|2026-10-22|||||60||1
-4479602096|Territory Manager, Anesthesia - Birmingham, AL|Ambu|Birmingham|2026-10-16|||||||1
-4473574961|Cardiovascular Sales Representative|Syneos Health Commercial Solutions|Birmingham|2026-10-21|||||3||1
-4482005600|Aquestive District Sales Manager|Inizio Engage|Birmingham|2026-10-21|180000|210000|||20||1
-4477732552|Rheumatology Territory Business Manager, Knoxville, TN|argenx|Huntsville|2026-10-16|140000|192500|||5||1
-4410401200|Account Manager, AWM (Southeast Region) - Future Opportunities|Smith+Nephew|Birmingham|2026-10-25|75000|110000|||||1
-4472950751|Regional Sales Manager|SPR|Birmingham|2026-10-23||||Q|3||1
-4481025493|Nobel Biocare Territory Representative (Montgomery, Alabama)|Nobel Biocare|Montgomery|2026-10-24|70000|90000|A|Q|3||1
-4481778569|Sleep Sales Representative|VieMed Healthcare|Huntsville|2026-10-20|||||||1
-4481611500|Area Sales Manager- AL/GA|Cynosure, LLC.|Birmingham|2026-10-22|||||8||1
-4478182187|Associate Territory Representative - Huntsville, AL -Nashville, Chattanooga, TN|IQVIA|Huntsville|2026-10-13|55000|60000|A|Q|4||1
-4480560764|Therapy Development Representative - Birmingham, AL|Inspire Medical Systems|Birmingham|2026-10-16|105000|105000|||2||1
-4479196510|Territory Manager (Ostomy Care) - Birmingham, AL|Coloplast|Birmingham|2026-10-15|145000|165000|||3||1
-4483775070|Sales Associate (Montgomery, AL) – Johnson & Johnson MedTech - Orthopaedics|Johnson & Johnson MedTech|Montgomery|2026-10-26|||||2||1
-4483248598|Associate Territory Manager|Providence Medical Technology, Inc.|Alabama|2026-10-26||||Q|||1
-4470203808|Clinical Account Manager (Alabama)|Cleerly|Alabama|2026-10-13|130000|140000|||5||1
-4480579750|Assoc Field Access Dir, Derm, Nashville - Birmingham N|Incyte|Birmingham|2026-10-17|||||5||1
-4470213516|Regional Sales Manager, Provider Sales (Birmingham, Alabama)|Cleerly|Alabama|2026-10-13|140000|150000||Q|8||1
-4466806703|Territory Account Manager - Jackson, MS; Mobile, AL|Heartflow|Mobile|2026-09-16|||||5||1
-4479438933|Sales Representative - Laboratory Sales|Cardinal Health|Alabama|2026-10-21|128000|157800|||||1
-4480213465|Sales Representative - North Alabama - Smart Care|Stryker|Huntsville / Birmingham|2026-10-19|100000|105000|||5||2
-4476786610|Technical Sales Specialist - Spectral Flow Cytometry|BD|Alabama|2026-10-07|95600|153000|||||1
-4469935161|Sales & Account Manager - South Alabama|Madison Core Laboratories|Montgomery|2026-09-21|||||5||2
-4477828045|Representative, Sales (North Alabama)|BioTissue|Birmingham|2026-10-09|75000|100000||Q|5||1
-4483150079|Sales Rep, Peripheral Nervous System (PNS) – Birmingham, AL|Medtronic|Birmingham|2026-10-23||||Q|6||1
-4482174605|Assoc Sales Representative - 2670-2|FloodGate Medical|Birmingham|2026-10-21|||||||1
-4476402987|Life Science Specialist|Thermo Fisher Scientific|Birmingham|2026-10-13|||||2||1
-4464564629|MRD Regional Sales Director, South|Tempus AI|Alabama|2026-10-23|150000|200000|||||1
-4465391279|Territory Sales Manager - Birmingham, Alabama|Convatec|Birmingham|2026-10-09|||||||1
-4479251465|Territory Manager - Birmingham–Huntsville, AL|Nabi|Birmingham|2026-10-14|||||||1
-4460625529|Sales, Regional Sales Manager - Coronary Image Guided Therapy Devices (Gulf Coast)|Philips|Birmingham|2026-10-14|277500|371000|C||7||1
-4471100422|District Manager - Aortic Therapies - TN, AR, or AL|Cook Medical|Birmingham|2026-10-15|||||3||1
-4473143574|Sales Specialist – Histology Instruments|Leica Biosystems|Huntsville / Birmingham|2026-10-24|110000|120000|||5||2
-4484085655|Coronary Senior Clinical Specialist - Birmingham, AL|Medtronic|Birmingham|2026-10-27|100000|100000|||8||1
-4479985857|Sales Representative - Birmingham/Huntsville - Breast Care|Stryker|Huntsville / Birmingham / Montgomery|2026-10-19|||||5||3
-4463581883|Arterial Account Manager - Birmingham AL - Peripheral Vascular|Stryker|Birmingham|2026-09-09|||||6||1
-4427845445|Medical Sales Representative|Crown Medical, Inc.|Huntsville / Birmingham|2026-06-18|||||||2
-4468031273|Medical Sales Representative (Physician Advisor)|Blackstone Medical Services|Huntsville|2026-09-17|||||||1
-4440180520|Specialty Nutrition Systems, Short-Term Feeding Account Consultant - Birmingham, AL / Nashville, TN|Avanos Medical|Alabama|2026-10-28|90000|130000|||3||1
-4483776095|Principal Aortic Account Manager|Rhevera Medical|Mobile|2026-10-26||||Q|8||1
-4473963746|Medical Sales Representative|Skilled Wound Care|Birmingham|2026-09-30|||||2||1
-4429647961|Mgr Regional Business UL|Canon Medical Systems USA, Inc.|Birmingham / Huntsville|2026-07-24||||Q|4||2
-4457712540|Beds and Therapeutic Surfaces Sales Specialist|Agiliti|Homewood|2026-08-26||||Q|2||1
-4483674464|Associate Sales Representative|Prime Surgical, LLC- Arthrex|Birmingham|2026-10-27|||||3||1
-4475879848|Infusion Sales Representative|Palmetto Infusion|Montgomery|2026-10-05|||||1||1
-4440401771|Clinical Sales Specialist, Structural Heart - TAVI (Birmingham, AL)|Abbott|Birmingham|2026-07-28|78000|156000||Q|9||1
-4475832401|National Account Executive, Government|BD|Alabama|2026-10-05|||||7||1
-4446366136|Orthopedic Senior Sales Leader|Arthrex|Birmingham / Huntsville|2026-10-22|||||||2
-4469032659|Plasma Sales Specialist - MI, OH, WV, KY, W. TN, W. AL|Siemens Healthineers|Birmingham|2026-10-14|85600|117700|||3||1
-4460641884|Associate Sales Representative – Birmingham, AL - Injury/Infection Prevention|Stryker|Birmingham|2026-09-03|||||||1
-4464574426|Account Executive|Druid City Vital Care|Northport|2026-10-24|||||4||1
-4446516574|Orthopedic Associate Sales Representative|Arthrex|Birmingham|2026-10-22|||||||1
-4483248415|Break into Surgical Sales Birmingham, AL|Fallstaff Search|Birmingham|2026-10-26|||||1||1
-4471829755|Field Clinical Representative - Huntsville, AL (N AL)|Inspire Medical Systems|Huntsville|2026-10-16|100000|130000|||2||1
-4468318017|Sr. Clinical Specialist, Cardiac Rhythm Management - Huntsville, AL|Abbott|Huntsville|2026-09-24|78000|156000|||3||1
-4464197035|Zone General Manager - Southeast|Siemens Healthineers|Birmingham|2026-10-23|280000|385000|||15||1
-4456053518|Sales Support, Clinical Specialist – VeriSight 3D ICE (Intracardiac Echo) (Birmingham, AL)|Philips|Birmingham|2026-10-23|154000|190000|C||2||1
-4480293079|Diagnostic Sales Representative|e3 Diagnostics|Montgomery|2026-10-19|||C||2||1
-4479970825|Sales Representative - Hattiesburg - Orthopaedic Instruments|Stryker|Mobile|2026-10-19|||||5||1
-4425984560|Clinical Specialist, CRM - Mobile, AL|Abbott|Mobile|2026-06-16|61300|122700|||2||1
-4471759885|Medical Supply Sales Representative|Medline|Auburn|2026-10-21|||||2||1
-4446348857|Orthopedic Sales Representative, Sports Medicine|Arthrex|Auburn|2026-10-23|||||||1
-4446363534|Orthopedic Sales Representative, Extremities/Trauma|Arthrex|Auburn|2026-10-23|||||||1
-4482412951|Medical Specialist I - Allergy-ENT - Birmingham S, AL|BioSpace|Alabama|2026-10-22|140675|190325|||5||1
+4149622620|Respiratory Clinical Sales Specialist|Quipt Home Medical|Birmingham / Clayton / Montgomery / Phenix City|2025-02-11|||A||1||4|4149622620,4149624532,4149626383,4149628137
+4149628133|Medical Sales Representative|Quipt Home Medical|Montgomery|2025-02-11|||A||21||1|4149628133
+4482032602|Territory Manager, Dermatology & Immunology - Alabama S|SUN PHARMA|Alabama / Mobile|2026-10-21|130000|160000||Q|3||2|4482032602,4481107880
+4477725970|Rheumatology Territory Business Manager, Birmingham, AL|argenx|Montgomery / Huntsville / Birmingham|2026-10-16|140000|192500|||5||3|4477725970,4477741271,4477726857
+4476271690|Medical Specialist II Ophthalmology -TN, AL, & Pensacola to Tallahassee, FL|Regeneron|Alabama|2026-10-09|178500|241500|||5||2|4476271690,4482424636
+4478196080|Clinical Sales Specialist (CS) - Montgomery, AL|Corcept Therapeutics|Montgomery|2026-10-14|140000|155000|||25||1|4478196080
+4481006349|Neurology Territory Business Manager, Birmingham (Overlay)|argenx|Montgomery / Huntsville / Birmingham|2026-10-23|140000|192500|||5||3|4481006349,4481010119,4481008276
+4484262634|Gastroenterology Area Business Manager - Mississippi Valley|Pfizer|Birmingham|2026-10-27|139000|280400|||5||1|4484262634
+4479890408|Cardiovascular-Renal Sales Consultant - Montgomery, AL|Boehringer Ingelheim|Montgomery|2026-10-15|||||18||1|4479890408
+4483173076|Clinical Account Specialist HS - Mobile|UCB|Mobile|2026-10-23|132000|174000|||3||1|4483173076
+4458012697|Specialty Account Manager, Long Term Care (Mobile, AL)|Axsome Therapeutics, Inc.|Mobile|2026-08-27|120000|185000||Q|5||1|4458012697
+4454844127|NeuroCare Sales Specialist - Birmingham, AL|Teva Pharmaceuticals|Birmingham|2026-08-15|88000|160000|||1||1|4454844127
+4471949894|Account Specialist (Birmingham, AL Region – Multiple Territories)|Praxis Precision Medicines, Inc.|Birmingham|2026-09-29||||Q|5||1|4471949894
+4479748331|Territory Manager - Alabama South|Tandem Diabetes Care|Greater Dothan|2026-10-15|91890|112310|||3||1|4479748331
+4472630622|Neuroscience Specialty Representative|TSP, a Syneos Health company|Huntsville / Birmingham|2026-09-30|148000|180000|||00||2|4472630622,4465916319
+4483378786|Specialty Representative/Senior Specialty Representative - Bone Health - Birmingham E, AL|Amgen|Birmingham|2026-10-25|89880|121602|||4||2|4483378786,4484012379
+4476103109|Territory Business Manager Psychiatry – Gulf Coast|Alkermes|Mobile|2026-10-05|125000|155000|||2||1|4476103109
+4473389479|CNS/Neuroscience, ADHD Territory Sales Representative - Montgomery AL|Collegium Pharmaceutical, Inc.|Auburn / Phenix City / Prattville / Opelika / Dothan / Montgomery|2026-10-02||||Q|4||6|4473389479,4473800057,4473392318,4473396156,4473382771,4473388512
+4473000820|Pharmaceutical Sales - Neuroscience Specialist - Montgomery, AL|Otsuka Pharmaceutical Companies (U.S.)|Montgomery|2026-10-26|||||2||1|4473000820
+4473951288|Neuroscience Specialty Representative|Ipsen|Huntsville / Birmingham|2026-10-07|148000|180000|||00||2|4473951288,4467787233
+4479412299|Rare Disease Business Manager, Alpha1 (Birmingham, AL)|Takeda|Alabama|2026-10-21|||||3||1|4479412299
+4470047251|Oncology Sales Specialist- S2 - (Birmingham, AL) (field based)|Eisai US|Birmingham|2026-10-16|151040|198200|||2||1|4470047251
+4477822211|Health Systems Associate Director - Southeast (Birmingham, AL)|SUN PHARMA|Alabama / Birmingham|2026-10-09|143500|235500|C|Q|3||2|4477822211
+4466927932|Territory Sales Manager - Specialty (Birmingham S, AL)|Sumitomo Pharma America, Inc.|Birmingham|2026-10-10|113600|142000|||||1|4466927932
+4466707506|Specialty Representative/Senior Specialty Representative - Rheumatology - Birmingham, AL|Amgen|Birmingham|2026-09-12|95167|116315|||4||2|4466707506
+4457790900|Specialty Business Manager, Derm - Cullman/Huntsville|Takeda|Huntsville / Birmingham / Alabama|2026-10-09|||||3||3|4457790900,4458358196,4458344775
+4471124306|Pharmaceutical Sales - Territory Manager - GI Specialty|Eli Lilly and Company|Montgomery|2026-10-15|87000|159500|||||2|4471124306
+4473377411|Clinical Sales Specialist (CS) - Birmingham, AL|Corcept Therapeutics|Birmingham|2026-10-24|140000|155000|||25||1|4473377411
+4472056775|Ophthalmic Business Specialist - Birmingham, AL|Astellas Pharma|Birmingham|2026-10-17|120897|181800|C|Q|5||1|4472056775
+4473928909|Primary Care & Specialty Sales Consultant - Dothan, AL|Bayer|Dothan|2026-10-22|124320|186480|||10||1|4473928909
+4474473697|Oncology Account Manager (Hematology) Florida-Panhandle|GSK|Dothan|2026-10-27|||||3||1|4474473697
+4453585631|Territory Sales Manager - Birmingham, AL (Postpartum Depression)|Supernus Pharmaceuticals, Inc.|Birmingham|2026-08-20|100000|110000||Q|30||1|4453585631
+4337433907|Neuroscience District Sales Manager (Psychiatry) - Gulf Coast District|Vanda Pharmaceuticals|Huntsville / Birmingham|2026-10-19|||A||10||2|4337433907,4337344750
+4484002404|Long Term Care Account Manager - Birmingham, AL|Teva Pharmaceuticals|Birmingham|2026-10-27|88000|160000|||2||1|4484002404
+4481766939|Senior Oncology Account Manager (Atlanta West)|Immunome, Inc.|Birmingham|2026-10-20|210000|235000|||7||1|4481766939
+4460644722|Clinical Account Executive, Oncology - Birmingham, AL|AbbVie|Birmingham|2026-10-14|||C||5||1|4460644722
+4471222636|Pharma/Healthcare Sales Rep|Tris Pharma|Montgomery|2026-10-20|90000|105000|C||1||2|4471222636,4474130020
+4449819925|Therapeutic Sales Specialist - FOCUS ON THE PSYCHEDELIC SPACE - Building a world-class sales team - Alabama|RxSalesPros|Alabama|2026-09-27|||||8||1|4449819925
+4476114876|Area Business Lead, Rare Disease (First Line Leader) - South East (Tennessee, Georgia, Alabama)|Otsuka Pharmaceutical Companies (U.S.)|Montgomery|2026-10-27|||||3||1|4476114876
+4480233766|Specialty Representative, Migraine - Panama City Beach, FL/Dothan AL|AbbVie|Dothan|2026-10-19|||C||||1|4480233766
+4478382844|Territory Sales Manager|TSP, a Syneos Health company|Birmingham|2026-10-12||||Q|5||1|4478382844
+4481947735|Clinical Sales Manager (Birmingham)|Karius|Birmingham|2026-10-23|||||5||1|4481947735
+4483369910|Specialty/Senior Specialty Representative - Bone Health - Decatur/Tupelo, MS (Overlay)|Amgen|Decatur|2026-10-28|89880|121602|||4||2|4483369910,4484019230
+4466707515|Specialty Representative - University of Alabama - United States Field Worker|Amgen|Tuscaloosa|2026-09-18|89880|121602|||4||2|4466707515
+4442118297|Pharma Sales Detail Rep|Innovativ Pharma|Montgomery|2026-07-17|||||||1|4442118297
+4442112247|BioPharma Account Rep|Innovativ Pharma|Huntsville|2026-07-17|||||||1|4442112247
+4453499092|Hospital Senior Account Manager, Anti-Infectives -  Birmingham, AL|GSK|Huntsville|2026-10-19|||||5||1|4453499092
+4456454050|Hospital Specialty Representative|TSP, a Syneos Health company|Birmingham|2026-09-04|||||5||1|4456454050
+4476694874|Adult Immunization Specialist (Vaccines) Montgomery, Alabama|GSK|Dothan|2026-10-28|||||40||1|4476694874
+4458286241|Sales Specialist|QOL Medical LLC|Birmingham|2026-09-15|||||3||1|4458286241
+4452593639|Territory Manager|Soleo Health|Hoover|2026-08-18|||A||||1|4452593639
+4478596981|Abbott Nutrition - Pediatric Sales Representative - Montgomery, AL|Abbott|Alabama|2026-10-20|61300|122700|||||1|4478596981
+4475451274|Pharmaceutical Sales - Territory Manager, Dermatology/Allergy/Immunology (MOBILE - BIRMINGHAM, AL)|Vanigent|Mobile|2026-10-28|||C||2||1|4475451274
+4481517517|Business Development Manager, Immunoassays & Biomarkers (Southeast)|Spear Bio|Birmingham|2026-10-20|160000|180000|||10||1|4481517517
+4469246957|Diabetes Sales Associate - Birmingham, AL|Abbott|Birmingham|2026-09-28|61300|122700|||3||1|4469246957
+4467225998|Business Account Executive, South Alabama|Alnylam Pharmaceuticals|Mobile|2026-10-27|144500|195500|||5||1|4467225998
+4465062121|Clinical Account Manager/Senior Clinical Account Manager - Birmingham, AL|Sobi - Swedish Orphan Biovitrum AB (publ)|Birmingham|2026-10-22|170000|210000|||5||1|4465062121
+4442135362|Pharmaceutical Rep - Entry Level|Innovativ Pharma|Auburn|2026-07-17|||||||1|4442135362
+4459083989|Sales Specialist|TSP, a Syneos Health company|Birmingham|2026-08-26|||||3||1|4459083989
+4458429743|ViiV Healthcare (GSK) Regional Sales Director, HIV Prevention LAI, Southeast|GSK|Birmingham, Alabama|2026-10-20|||||30||1|4458429743
+4466498664|Cardiovascular Key Account Manager - Birmingham, AL|Amgen|Birmingham|2026-09-12|||||2||2|4466498664
+4455977377|Cardiovascular-Renal Sales Consultant-Mobile, AL|Boehringer Ingelheim|Mobile|2026-10-08|||||18||1|4455977377
+4483182104|Area Sales Manager - HAE - Birmingham, AL|CSL|Birmingham|2026-10-24|||||5||1|4483182104
+4483122536|Aquestive Therapeutic Specialty Representative|Inizio Engage|Birmingham|2026-10-23|125000|150000|||20||1|4483122536
+4472238440|Specialty Urology Account Manager|Syneos Health Commercial Solutions|Birmingham|2026-10-17|160000|170000|A||4||1|4472238440
+4473523576|Sales Representative (Primary Care)|Syneos Health Commercial Solutions|Mobile|2026-10-21|||||5||1|4473523576
+4483124383|Pharmaceutical Field Sales Representative|Inizio Engage|Huntsville|2026-10-23|70000|90000|||||1|4483124383
+4481362923|Specialty Representative, Psychiatry - Birmingham, AL|AbbVie|Birmingham|2026-10-22|||C||||1|4481362923
+4472595354|Remote/Hybrid Pharmaceutical Sales Representative- CST/MST|Amplity|Birmingham|2026-10-23|70000|73000|A||1||1|4472595354
+4477176987|Clinical Account Specialist - Mobile, AL|Ionis Pharmaceuticals, Inc.|Mobile|2026-10-08|140000|160000|||30||1|4477176987
+4476197162|Sales Representative- Elite Dermatology|Top Candidate Search Group|Greater Birmingham, Alabama|2026-10-26|||||2||1|4476197162
+4483282389|Oncology Account Executive - AL/MS|Hologic, Inc.|Birmingham|2026-10-27|220000|250000|||5||1|4483282389
+4480163710|Regional Account Specialist - Mass Spectrometry|Roche|Birmingham|2026-10-15|119100|221000|||7||1|4480163710
+4481263882|Senior District Manager, Immunology Autoantibody Diseases, Gulf Coast|Johnson & Johnson Innovative Medicine|Birmingham|2026-10-19|||||||1|4481263882
+4482766806|Associate Account Executive (Panhandle of FL) – Johnson & Johnson MedTech – Surgery|Johnson & Johnson MedTech|Mobile|2026-10-22|||||60||1|4482766806
+4479602096|Territory Manager, Anesthesia - Birmingham, AL|Ambu|Birmingham|2026-10-16|||||||1|4479602096
+4473574961|Cardiovascular Sales Representative|Syneos Health Commercial Solutions|Birmingham|2026-10-21|||||3||1|4473574961
+4482005600|Aquestive District Sales Manager|Inizio Engage|Birmingham|2026-10-21|180000|210000|||20||1|4482005600
+4477732552|Rheumatology Territory Business Manager, Knoxville, TN|argenx|Huntsville|2026-10-16|140000|192500|||5||1|4477732552
+4410401200|Account Manager, AWM (Southeast Region) - Future Opportunities|Smith+Nephew|Birmingham|2026-10-25|75000|110000|||||1|4410401200
+4472950751|Regional Sales Manager|SPR|Birmingham|2026-10-23||||Q|3||1|4472950751
+4481025493|Nobel Biocare Territory Representative (Montgomery, Alabama)|Nobel Biocare|Montgomery|2026-10-24|70000|90000|A|Q|3||1|4481025493
+4481778569|Sleep Sales Representative|VieMed Healthcare|Huntsville|2026-10-20|||||||1|4481778569
+4481611500|Area Sales Manager- AL/GA|Cynosure, LLC.|Birmingham|2026-10-22|||||8||1|4481611500
+4478182187|Associate Territory Representative - Huntsville, AL -Nashville, Chattanooga, TN|IQVIA|Huntsville|2026-10-13|55000|60000|A|Q|4||1|4478182187
+4480560764|Therapy Development Representative - Birmingham, AL|Inspire Medical Systems|Birmingham|2026-10-16|105000|105000|||2||1|4480560764
+4479196510|Territory Manager (Ostomy Care) - Birmingham, AL|Coloplast|Birmingham|2026-10-15|145000|165000|||3||1|4479196510
+4483775070|Sales Associate (Montgomery, AL) – Johnson & Johnson MedTech - Orthopaedics|Johnson & Johnson MedTech|Montgomery|2026-10-26|||||2||1|4483775070
+4483248598|Associate Territory Manager|Providence Medical Technology, Inc.|Alabama|2026-10-26||||Q|||1|4483248598
+4470203808|Clinical Account Manager (Alabama)|Cleerly|Alabama|2026-10-13|130000|140000|||5||1|4470203808
+4480579750|Assoc Field Access Dir, Derm, Nashville - Birmingham N|Incyte|Birmingham|2026-10-17|||||5||1|4480579750
+4470213516|Regional Sales Manager, Provider Sales (Birmingham, Alabama)|Cleerly|Alabama|2026-10-13|140000|150000||Q|8||1|4470213516
+4466806703|Territory Account Manager - Jackson, MS; Mobile, AL|Heartflow|Mobile|2026-09-16|||||5||1|4466806703
+4479438933|Sales Representative - Laboratory Sales|Cardinal Health|Alabama|2026-10-21|128000|157800|||||1|4479438933
+4480213465|Sales Representative - North Alabama - Smart Care|Stryker|Huntsville / Birmingham|2026-10-19|100000|105000|||5||2|4480213465,4479972759
+4476786610|Technical Sales Specialist - Spectral Flow Cytometry|BD|Alabama|2026-10-07|95600|153000|||||1|4476786610
+4469935161|Sales & Account Manager - South Alabama|Madison Core Laboratories|Montgomery|2026-09-21|||||5||2|4469935161,4472313885
+4477828045|Representative, Sales (North Alabama)|BioTissue|Birmingham|2026-10-09|75000|100000||Q|5||1|4477828045
+4483150079|Sales Rep, Peripheral Nervous System (PNS) – Birmingham, AL|Medtronic|Birmingham|2026-10-23||||Q|6||1|4483150079
+4476402987|Life Science Specialist|Thermo Fisher Scientific|Birmingham|2026-10-13|||||2||1|4476402987
+4464564629|MRD Regional Sales Director, South|Tempus AI|Alabama|2026-10-23|150000|200000|||||1|4464564629
+4465391279|Territory Sales Manager - Birmingham, Alabama|Convatec|Birmingham|2026-10-09|||||||1|4465391279
+4479251465|Territory Manager - Birmingham–Huntsville, AL|Nabi|Birmingham|2026-10-14|||||||1|4479251465
+4460625529|Sales, Regional Sales Manager - Coronary Image Guided Therapy Devices (Gulf Coast)|Philips|Birmingham|2026-10-14|277500|371000|C||7||1|4460625529
+4471100422|District Manager - Aortic Therapies - TN, AR, or AL|Cook Medical|Birmingham|2026-10-15|||||3||1|4471100422
+4473143574|Sales Specialist – Histology Instruments|Leica Biosystems|Huntsville / Birmingham|2026-10-24|110000|120000|||5||2|4473143574,4473154149
+4484085655|Coronary Senior Clinical Specialist - Birmingham, AL|Medtronic|Birmingham|2026-10-27|100000|100000|||8||1|4484085655
+4479985857|Sales Representative - Birmingham/Huntsville - Breast Care|Stryker|Huntsville / Birmingham / Montgomery|2026-10-19|||||5||3|4479985857,4479991554,4479969835
+4463581883|Arterial Account Manager - Birmingham AL - Peripheral Vascular|Stryker|Birmingham|2026-09-09|||||6||1|4463581883
+4427845445|Medical Sales Representative|Crown Medical, Inc.|Huntsville / Birmingham|2026-06-18|||||||2|4427845445,4427861257
+4468031273|Medical Sales Representative (Physician Advisor)|Blackstone Medical Services|Huntsville|2026-09-17|||||||1|4468031273
+4440180520|Specialty Nutrition Systems, Short-Term Feeding Account Consultant - Birmingham, AL / Nashville, TN|Avanos Medical|Alabama|2026-10-28|90000|130000|||3||1|4440180520
+4483776095|Principal Aortic Account Manager|Rhevera Medical|Mobile|2026-10-26||||Q|8||1|4483776095
+4473963746|Medical Sales Representative|Skilled Wound Care|Birmingham|2026-09-30|||||2||1|4473963746
+4429647961|Mgr Regional Business UL|Canon Medical Systems USA, Inc.|Birmingham / Huntsville|2026-07-24||||Q|4||2|4429647961
+4457712540|Beds and Therapeutic Surfaces Sales Specialist|Agiliti|Homewood|2026-08-26||||Q|2||1|4457712540
+4483674464|Associate Sales Representative|Prime Surgical, LLC- Arthrex|Birmingham|2026-10-27|||||3||1|4483674464
+4475879848|Infusion Sales Representative|Palmetto Infusion|Montgomery|2026-10-05|||||1||1|4475879848
+4440401771|Clinical Sales Specialist, Structural Heart - TAVI (Birmingham, AL)|Abbott|Birmingham|2026-07-28|78000|156000||Q|9||1|4440401771
+4475832401|National Account Executive, Government|BD|Alabama|2026-10-05|||||7||1|4475832401
+4446366136|Orthopedic Senior Sales Leader|Arthrex|Birmingham / Huntsville|2026-10-22|||||||2|4446366136,4446518566
+4469032659|Plasma Sales Specialist - MI, OH, WV, KY, W. TN, W. AL|Siemens Healthineers|Birmingham|2026-10-14|85600|117700|||3||1|4469032659
+4460641884|Associate Sales Representative – Birmingham, AL - Injury/Infection Prevention|Stryker|Birmingham|2026-09-03|||||||1|4460641884
+4446516574|Orthopedic Associate Sales Representative|Arthrex|Birmingham|2026-10-22|||||||1|4446516574
+4483248415|Break into Surgical Sales Birmingham, AL|Fallstaff Search|Birmingham|2026-10-26|||||1||1|4483248415
+4471829755|Field Clinical Representative - Huntsville, AL (N AL)|Inspire Medical Systems|Huntsville|2026-10-16|100000|130000|||2||1|4471829755
+4464197035|Zone General Manager - Southeast|Siemens Healthineers|Birmingham|2026-10-23|280000|385000|||15||1|4464197035
+4456053518|Sales Support, Clinical Specialist – VeriSight 3D ICE (Intracardiac Echo) (Birmingham, AL)|Philips|Birmingham|2026-10-23|154000|190000|C||2||1|4456053518
+4480293079|Diagnostic Sales Representative|e3 Diagnostics|Montgomery / Greater Birmingham, Alabama|2026-10-19|||C||2||2|4480293079,4480286468
+4479970825|Sales Representative - Hattiesburg - Orthopaedic Instruments|Stryker|Mobile|2026-10-19|||||5||1|4479970825
+4425984560|Clinical Specialist, CRM - Mobile, AL|Abbott|Mobile|2026-06-16|61300|122700|||2||1|4425984560
+4471759885|Medical Supply Sales Representative|Medline|Auburn|2026-10-21|||||2||1|4471759885
+4446348857|Orthopedic Sales Representative, Sports Medicine|Arthrex|Auburn|2026-10-23|||||||1|4446348857
+4446363534|Orthopedic Sales Representative, Extremities/Trauma|Arthrex|Auburn|2026-10-23|||||||1|4446363534
+4482569496|Wound Care Sales Specialist|Essity|Birmingham|2026-10-28|||||3||1|4482569496
+4461550302|Advanced Wound Care Regional Sales Manager|Solventum|Tyler|2026-10-13|204800|281600|||||1|4461550302
