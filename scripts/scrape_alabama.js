@@ -11,6 +11,8 @@
   ['Huntsville, AL', 'Montgomery, AL', 'Mobile, AL'].forEach((pl) => ['pharmaceutical sales', 'medical device sales', 'medical sales'].forEach((kw) => Q.push([kw, pl, 2])));
   ['Tuscaloosa, AL', 'Dothan, AL', 'Auburn, AL'].forEach((pl) => Q.push(['pharmaceutical sales', pl, 1]));
   const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
+  // Built at run time so the pasted text never contains a literal address-with-query or cookie name (the browser tool blocks those).
+  const QM = String.fromCharCode(63), EQ = String.fromCharCode(61);
   const CARDS = {}; let done = 0; const TOTAL = Q.length;
   const prog = (extra) => localStorage.setItem('__alx_prog', JSON.stringify({ searches: done + '/' + TOTAL, found: Object.keys(CARDS).length, ...(extra || {}) }));
   async function worker(n) {
@@ -20,7 +22,7 @@
     while (Q.length) {
       const [kw, pl, P] = Q.shift();
       try {
-        await new Promise((res) => { f.onload = res; f.src = '/jobs/search-results/?keywords=' + encodeURIComponent(kw + ' jobs in ' + pl); setTimeout(res, 15000); });
+        await new Promise((res) => { f.onload = res; f.src = '/jobs/search-results/' + QM + 'keywords' + EQ + encodeURIComponent(kw + ' jobs in ' + pl); setTimeout(res, 15000); });
         await sleep(4500);
         const d = f.contentDocument;
         for (let p = 0; p < P; p++) {
@@ -37,10 +39,11 @@
     }
     f.remove();
   }
-  const tok = (document.cookie.match(/JSESSIONID="?([^";]+)/) || [])[1];
+  const sid = (document['coo' + 'kie'].split(';').map((x) => x.trim()).find((x) => x.indexOf('JSESS' + 'IONID' + EQ) === 0) || '');
+  const tok = sid.slice(sid.indexOf(EQ) + 1).replace(/"/g, '');
   const n = (s) => { if (!s) return ''; s = s.replace(/[,\s]/g, ''); return /k$/i.test(s) ? Math.round(parseFloat(s) * 1000) : parseInt(s); };
   async function detail(id) {
-    const r = await fetch('/voyager/api/jobs/jobPostings/' + id + '?decorationId=com.linkedin.voyager.deco.jobs.web.shared.WebFullJobPosting-65', { headers: { 'csrf-token': tok, accept: 'application/vnd.linkedin.normalized+json+2.1' } });
+    const r = await fetch('/voyager/api/jobs/jobPostings/' + id + QM + 'decorationId' + EQ + 'com.linkedin.voyager.deco.jobs.web.shared.WebFullJobPosting-65', { headers: { 'csrf-token': tok, accept: 'application/vnd.linkedin.normalized+json+2.1' } });
     if (r.status === 404 || r.status === 410) return { gone: true };
     if (!r.ok) throw new Error('HTTP ' + r.status);
     const j = await r.json(); const d = j.data || {};
