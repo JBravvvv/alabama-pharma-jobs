@@ -41,8 +41,10 @@ for r in rs:
     if len(r) > 12 and r[12]: seen |= set(r[12].split(','))
 if os.path.exists('data/ignored.txt'): seen |= set(open('data/ignored.txt').read().split())
 os.makedirs('refresh', exist_ok=True)
-payload = ('window.__AL_KNOWN=' + json.dumps(known, separators=(',', ':')) + ';window.__AL_SEEN=' + json.dumps(sorted(seen), separators=(',', ':')) + ';\n'
-           + open('scripts/scrape_alabama.js', encoding='utf-8').read())
-open('refresh/payload.txt', 'w', encoding='utf-8').write(payload)
-open('refresh/status.json', 'w').write(json.dumps({'jobs_on_site': len(known), 'seen': len(seen), 'payload_chars': len(payload)}))
-print('PAYLOAD', len(payload), 'chars;', len(known), 'jobs on site')
+for old in ('refresh/payload.txt',):
+    if os.path.exists(old): os.remove(old)
+# Plain comma-separated id lists the daily run reads from the live site (no quotes or key=value text, so the browser tool returns them intact).
+open('refresh/known.txt', 'w').write(','.join(known))
+open('refresh/seen.txt', 'w').write(','.join(sorted(seen)))
+open('refresh/status.json', 'w').write(json.dumps({'jobs_on_site': len(known), 'seen': len(seen)}))
+print('REFRESH LISTS', len(known), 'known;', len(seen), 'seen')
