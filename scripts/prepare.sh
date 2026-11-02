@@ -1,9 +1,8 @@
 #!/bin/bash
-# Daily refresh, step 1: fresh copy of the site repo in /tmp/alrepo, plus the ids the browser script needs.
+# Alabama refresh, step 1. Clones the public repo (no sign-in needed) into /tmp/alrepo and prints the ids the browser script needs.
 set -e
-D="$HOME/mnt/Job Dashboard/alabama-site"
 rm -rf /tmp/alrepo
-git -c credential.helper= -c credential.helper="!GH_CONFIG_DIR='$D/.gh' '$D/.bin/gh' auth git-credential" clone -q https://github.com/JBravvvv/alabama-pharma-jobs.git /tmp/alrepo
+git -c credential.helper= clone -q https://github.com/JBravvvv/alabama-pharma-jobs.git /tmp/alrepo
 cd /tmp/alrepo
 echo "JOBS_ON_SITE $(grep -c . data/rows.txt)"
 python3 - <<'PY'
